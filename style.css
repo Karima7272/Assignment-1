@@ -1,0 +1,197 @@
+body{
+box-sizing: border-box;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+
+#navberSection{
+padding: 10px 50px;
+height: auto;
+display: flex;
+gap: 650px;
+background-color: rgb(99, 134, 99);
+
+}
+
+
+
+#navSectionUL{
+font-size: 24px;
+display: flex;
+gap: 50px;
+color: aliceblue;
+}
+#navberSectionh1{
+color: aliceblue;
+font-size: 28px;
+
+}
+
+
+span{
+    color: rgb(123, 199, 8);
+}
+li{
+
+ list-style: none;   
+}
+
+/* banner section started */
+
+#bannerSectionimg{
+
+height: 100vh;
+width: 100%;
+
+}
+#chakri{
+color: rgb(17, 230, 17);
+
+}
+/* about section started */
+#aboutSection{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(226, 220, 220);
+height: 800px;
+gap: 100px;
+padding: 100px;
+}
+.aboutSectioncard{
+
+    width: 50%;
+}
+.aboutSectioncard>img{
+
+    height: 500px;
+}
+
+
+
+#aboutSectioncardh2{
+
+    line-height: 40px;
+font-size: 32px;
+}
+#findJobs{
+box-shadow: 5px 5px 10px 2px grey;
+background-color: rgb(9, 230, 9);
+border: none;
+color: aliceblue;
+padding: 10px 20px;
+border-radius: 10px;
+}
+#aboutSectionP{
+text-align: justify;
+
+}
+
+
+
+/* card section started */
+#cardSection{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 50PX;
+
+}
+#cardsectionimg{
+height: 250px;
+width: 370px;
+
+
+}
+#cardSection>div{
+
+    background-color: rgb(15, 230, 15);
+}
+.cardSectionDiv2{
+
+padding: 20px;
+
+}
+#cardSectionbutton{
+
+padding: 10px 30px;
+background-color: black;
+
+color: aliceblue;
+}
+#MoreJobs{
+    box-shadow: 5px 5px 10px 2px gray;
+padding: 10px 30px;
+border: none;
+border-radius: 10px;
+color: aliceblue;
+background-color: rgb(15, 226, 15);
+}
+#cardSectionDiv3{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 50px 0;
+}
+
+
+
+/* contact section started */
+
+
+#contactSection{
+background-color: rgb(231, 224, 224);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40%;
+padding: 200px;
+}
+
+
+
+#contactSectionimg{
+height: 500px;
+
+
+
+}
+input{
+padding: 10px 50px;
+display: flex;
+border-radius: 10px;
+border: none;
+}
+
+#contactSectionbutton{
+    box-shadow: 5px 5px 10px 2px gray ;
+color: aliceblue;
+border: none;
+padding: 10px 40px;
+border-radius: 20px;
+background-color: rgb(124, 204, 4);
+}
+#contactSectionbutton:hover{
+background-color: rgb(7, 224, 7);
+box-shadow: 5px 5px 10px 2px gray;
+}
+
+
+/* footer section started */
+
+#footerSection{
+    display: flex;
+background-color: rgb(51, 50, 50);
+margin: 0;
+padding: 7px;
+align-items: center;
+justify-content: center;
+}
+#footerSection>h2{
+
+color: aliceblue;
+
+}
